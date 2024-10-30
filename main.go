@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	repository.ListarCategoria()
+	repository.ListarProveedores()
 }
