@@ -1,12 +1,12 @@
 package modelos
 
-import "time"
-
 type MovimientoInventario struct {
 	Id              int
 	ProductoId      int
-	FechaMovimiento time.Time
+	FechaMovimiento string
 	TipoMovimiento  string
 	Cantidad        int
 	Comentario      string
 }
+
+type MovimientosInventario []MovimientoInventario

@@ -31,3 +31,7 @@ func Conn() {
 	Db = db
 	fmt.Println("Exitosa")
 }
+
+func CerarConexion() {
+	Db.Close()
+}
